@@ -3,6 +3,10 @@ This repository is all about creating rpm package for mining rig monitor softwar
 
 By default, `rpmbuild` directory should be in  `$HOME`. if you want to change it to different directory, you need to use `_topdir` rpm macro. When building rpm, this process should be in `docker` or `VM`, **thus, we follow rpm convention.**
 
+```sh
+$ git clone https://github.com/nguyenvinhlinh/Mining-Rig-Monitor-RPM-Build ~/rpmbuild
+```
+
 ## Step 1. Copy source code tarball to `SOURCES`.
 ```sh
 ➜ rpmbuild (master) ✗ tree -L 3
