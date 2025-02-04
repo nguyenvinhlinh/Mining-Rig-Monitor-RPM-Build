@@ -79,5 +79,4 @@ Check out `RPMS` directory! RPM should be there!
 ├── SPECS
 │   ├── mining-rig-monitor-1.0.0.spec
 └── SRPMS
-
 ```
