@@ -2085,8 +2085,7 @@ cp -r _build/prod/rel/mining_rig_monitor/* %{buildroot}/opt/mining_rig_monitor
 /opt/mining_rig_monitor/releases/1.0.0/vm.args
 /opt/mining_rig_monitor/releases/COOKIE
 /opt/mining_rig_monitor/releases/start_erl.data
-# %license add-license-file-here
-# %doc add-docs-here
+
 
 
 
