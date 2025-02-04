@@ -4,6 +4,19 @@ This repository is all about creating rpm package for mining rig monitor softwar
 By default, `rpmbuild` directory should be in  `$HOME`. if you want to change it to different directory, you need to use `_topdir` rpm macro. When building rpm, this process should be in `docker` or `VM`, **thus, we follow rpm convention.**
 
 ## Step 1. Copy source code tarball to `SOURCES`.
+```sh
+➜ rpmbuild (master) ✗ tree -L 3
+.
+├── BUILD
+├── BUILDROOT
+├── readme.md
+├── RPMS
+├── SOURCES
+│   └── mining-rig-monitor-1.0.0.tar.xz <----- your tarball here!
+├── SPECS
+│   ├── mining-rig-monitor-1.0.0.spec
+└── SRPMS
+```
 ## Step 2. Create new `SPECS/.spec` file
 
 ```bash
@@ -65,7 +78,6 @@ Check out `RPMS` directory! RPM should be there!
 │   └── mining-rig-monitor-1.0.0.tar.xz
 ├── SPECS
 │   ├── mining-rig-monitor-1.0.0.spec
-│   └── newpackage.spec~
 └── SRPMS
 
 ```
