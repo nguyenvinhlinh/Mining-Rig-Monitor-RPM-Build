@@ -24,8 +24,7 @@ MIX_ENV=prod mix compile
 cd assets
 npm install
 cd ..
-mix assets.setup
-mix assets.deploy
+MIX_ENV=prod mix assets.deploy
 MIX_ENV=prod mix release
 
 %install
@@ -33,7 +32,7 @@ mkdir -p %{buildroot}/opt/mining_rig_monitor
 cp -r _build/prod/rel/mining_rig_monitor/* %{buildroot}/opt/mining_rig_monitor
 
 %files
-
+/opt/mining_rig_monitor/*
 
 
 
