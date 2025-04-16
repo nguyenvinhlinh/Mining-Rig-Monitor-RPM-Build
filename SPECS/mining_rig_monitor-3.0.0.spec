@@ -1,11 +1,11 @@
-Name: mining-rig-monitor
+Name: mining_rig_monitor
 Version: 3.0.0
 Release: 1%{?dist}
 Summary: A software helps monitor mining rig including ASICS, CPU, GPU miners
 
 License: GNU General Public License v3.0
 URL: https://github.com/nguyenvinhlinh/Mining-Rig-Monitor
-Source0: mining-rig-monitor-3.0.0.tar.xz
+Source0: mining_rig_monitor-3.0.0.tar.xz
 
 
 # BuildRequires:
@@ -13,6 +13,8 @@ Source0: mining-rig-monitor-3.0.0.tar.xz
 
 %description
 A software helps monitor mining rig including ASICS, CPU, GPU miners
+
+%global debug_package %{nil}
 
 %prep
 

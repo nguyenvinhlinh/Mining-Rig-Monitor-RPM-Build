@@ -2,3 +2,5 @@
 *.rpm
 *.tar.xz
 /SOURCES/mining-rig-monitor-1.0.0/
+*.rpm
+/BUILD/*
