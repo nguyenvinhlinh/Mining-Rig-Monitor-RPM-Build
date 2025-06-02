@@ -7,7 +7,7 @@ rm -rf /tmp/mining_rig_monitor-5.0.0;
 rm -rf /tmp/mining_rig_monitor-5.0.0.tar.xz;
 rm -rf $RPM_BUILD_DIR/SOURCES/mining_rig_monitor-5.0.0.tar.xz;
 
-git clone --depth 1 --branch release/v5.0.0 git@github.com:nguyenvinhlinh/Mining-Rig-Monitor.git mining_rig_monitor-5.0.0;
+git clone --depth 1 --branch v5.0.0 git@github.com:nguyenvinhlinh/Mining-Rig-Monitor.git mining_rig_monitor-5.0.0;
 tar -cJf mining_rig_monitor-5.0.0.tar.xz mining_rig_monitor-5.0.0;
 cp /tmp/mining_rig_monitor-5.0.0.tar.xz $RPM_BUILD_DIR/SOURCES/;
 
